@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="048ffe53-848a-4dcf-9eae-705719f4deb7" name="Spring-boot-sql" url="jdbc:postgresql://localhost:5433/demodb" driverClass="org.postgresql.Driver" />
+      <data-source id="48a34835-1740-4157-bf54-2f2e03040b89" name="Spring-boot-sql2" url="jdbc:postgresql://localhost:5432/demodb" driverClass="org.postgresql.Driver" />
+      <data-source id="5e29328d-ad69-49fb-97b1-4dcfa5c4cb50" name="Spring-boot-sql3" url="jdbc:postgresql://34.125.58.4:5432/demodb" driverClass="org.postgresql.Driver" />
+      <data-source id="258331fb-c6a4-44c7-a3b9-2ec6dd3d2263" name="Spring-boot-sql4" url="jdbc:postgresql://34.125.58.4:5432/demodb" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>

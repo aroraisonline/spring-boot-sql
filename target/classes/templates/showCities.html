@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>The Cities</title>
+  <head>
+    <title>Cities</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  </head>
+
+<body>
+<h2>List of cities</h2>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Population</th>
+  </tr>
+
+  <tr th:each="city : ${cities}">
+    <td th:text="${city.id}">Id</td>
+    <td th:text="${city.name}">Name</td>
+    <td th:text="${city.population}">Population</td>
+  </tr>
+</table>
+
+</body>
+</html>
