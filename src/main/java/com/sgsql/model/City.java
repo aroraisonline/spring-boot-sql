@@ -80,11 +80,12 @@ public class City {
 
   @Override
   public String toString() {
-    var sb = "City{" + "id=" + id
-        + ", name='" + name + '\''
-        + ", population=" + population
-        + '}';
-    return sb;
+    final StringBuilder sb = new StringBuilder("City{");
+    sb.append("id=").append(id);
+    sb.append(", name='").append(name).append('\'');
+    sb.append(", population=").append(population);
+    sb.append('}');
+    return sb.toString();
   }
 
 }
