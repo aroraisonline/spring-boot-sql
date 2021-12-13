@@ -6,7 +6,7 @@
   <head>
     <title>Cities</title>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
 <body>
@@ -21,7 +21,7 @@
 
   <tr th:each="city : ${cities}">
     <td th:text="${city.id}">Id</td>
-    <td th:text="${city.name}">Name</td>
+    <td>Name</td>
     <td th:text="${city.population}">Population</td>
   </tr>
 </table>

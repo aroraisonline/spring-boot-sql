@@ -1,6 +1,0 @@
-com\sgsql\service\ICityService.class
-com\sgsql\model\City.class
-com\sgsql\repository\CityRepository.class
-com\sgsql\controller\MyController.class
-com\sgsql\service\CityService.class
-com\sgsql\Application.class
